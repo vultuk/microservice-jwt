@@ -1,4 +1,4 @@
-import {verify as jwtVerify} from 'jsonwebtoken';
+import { verify as jwtVerify } from 'jsonwebtoken';
 
 const decode = (secretKey: string) => <T = unknown>(data: string): T => {
   try {

@@ -1,5 +1,5 @@
-import {NextFunction, Request, Response} from 'express';
-import {sign} from 'jsonwebtoken';
+import { NextFunction, Request, Response } from 'express';
+import { sign } from 'jsonwebtoken';
 
 import Decode from './Functions/decode';
 import Sign from './Functions/sign';
